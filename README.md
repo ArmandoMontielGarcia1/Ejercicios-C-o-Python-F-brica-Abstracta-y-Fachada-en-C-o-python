@@ -3,15 +3,15 @@
 # Descripción de la Actividad
 Objetivo: Implementar los patrones de diseño Fábrica Abstracta y Fachada para facilitar la creación y manejo de diferentes modelos de celulares en una tienda virtual.
 # CODIGO:
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using static System.Net.Mime.MediaTypeNames;
 
-namespace ConsoleApp1
-{
+    namespace ConsoleApp1
+    {
     // Interfaz para la creación de productos
     interface IFactory
     {
@@ -137,6 +137,6 @@ namespace ConsoleApp1
             Console.ReadKey();
         }
     }
-}
+    }
 
 ![image](https://github.com/ArmandoMontielGarcia1/Ejercicios-C-o-Python-F-brica-Abstracta-y-Fachada-en-C-o-python/assets/144396511/347a8011-81ed-41c8-aee2-eea31a8c0bbd)
